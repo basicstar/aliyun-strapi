@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "usermarkdowns",
+  "info": {
+    "singularName": "usermarkdown",
+    "pluralName": "usermarkdowns",
+    "displayName": "usermarkdown"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "userid": {
+      "type": "string",
+      "private": true,
+      "default": "public"
+    },
+    "markdown": {
+      "type": "richtext",
+      "default": "### 暂无数据"
+    }
+  }
+}
